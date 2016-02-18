@@ -26,7 +26,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-area">
-			<div class="site-branding">
+			<div class="site-branding outer-box">
 				<?php
 				if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
@@ -42,9 +42,9 @@
 				endif; ?>
 			</div><!-- .site-branding -->
 			
-			<div class="site-contact">
-					<h1>Call us:</h1>
-					<h1>1-800-299-8587</h1>
+			<div class="site-contact outer-box">
+					<p>Call us:</p>
+					<p>1-800-299-8587</p>
 			</div>
 		</div>
 
