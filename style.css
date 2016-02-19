@@ -737,7 +737,53 @@ a:active {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.header-area {
+    padding: 4rem 4rem;
+    margin: 0 100px;
+    text-align: center;
+    background: #dddddd;
+    line-height: normal;
+}
 
+.site-branding{
+	float: left;
+	display: block;
+}
+
+.site-title {
+    font-weight: 700;
+    font-size: 30px;
+    font-size: 3rem;
+    text-transform: lowercase;
+    iline-height: normal;
+    /*padding-bottom: 1rem;*/
+}
+
+.site-description {
+    font-weight: 100;
+    font-size: 20px;
+    font-size: 1rem;
+}
+
+.site-contact{
+	float: right;
+}
+
+.site-call-us{
+
+}
+
+.site-number{
+
+}
+
+.outer-box{
+	width: 400px;
+	height: 200px;
+	border-style: solid;
+    border-width: 5px;
+    border-color: red;
+}
 
 /*--------------------------------------------------------------
 # Widgets
