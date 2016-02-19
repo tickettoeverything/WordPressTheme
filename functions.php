@@ -44,7 +44,7 @@ function ticket_to_everything_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'ticket-to-everything' ),
+		'primary' => esc_html__( 'Primary Menu', 'ticket-to-everything' ),
 	) );
 
 	/*

@@ -33,6 +33,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Accessibility
 # Alignments
 # Clearings
+# Header
 # Widgets
 # Content
     ## Posts and pages
@@ -272,7 +273,7 @@ input,
 select,
 textarea {
 	font-size: 18px;
-    font-size: 1.8rem;
+	/*font-size: 1.8rem;*/
     font-family: 'PT Serif', serif;
     line-height: 1.5;
     color: #404040;
@@ -736,32 +737,7 @@ a:active {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.header-area {
-    padding: 4rem 0;
-    text-align: center;
-    background: #2c86ba;
-    background: hsl(202, 62%, 45%);
-}
 
-.site-branding{
-	float: left;
-	display: block;
-}
-
-.site-title {
-    font-weight: 700;
-    font-size: 40px;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    line-height: normal;
-    padding-bottom: 1rem;
-}
-
-.site-description {
-    font-weight: 100;
-    font-size: 20px;
-    font-size: 2rem;
-}
 
 /*--------------------------------------------------------------
 # Widgets
